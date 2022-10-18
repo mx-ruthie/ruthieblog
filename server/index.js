@@ -12,7 +12,7 @@ const pgp = pgPromise({});
 
 //porting over my database
 //this is porting over my whole database 
-const db = pgp('postgres://localhost:5432/blog');
+const db = pgp('postgres://localhost:5432/bloglist');
 
 app.use(cors());
 
